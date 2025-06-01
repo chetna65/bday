@@ -118,11 +118,20 @@
 .message-box {
   margin-top: 1.5rem;
   padding: 1rem;
-  background: #fff3cd;
+  background:#ffe6f0;
   border: 2px dashed #ffa502;
   border-radius: 10px;
-  font-style: italic;
+  /* font-family:  "Palatino","Georgia", "Garamond", serif; */
+
+   font-family: 'Lucida Handwriting', cursive;
+   font-size: 20px;
+   text-align: center;
+   line-height: 0.8;
+   letter-spacing: 1.4px; 
+   word-spacing: 5px;
   display: none;
+  color:#4b2e2e;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 @keyframes float {
@@ -143,13 +152,14 @@
 
 
 .title{
-  padding-top: 200px;
+  padding-top: 170px;
   text-align: center;
-  color: rgba(13, 146, 139, 0.844)
+  color: rgba(13, 146, 139, 0.844);
+  font-size: 50px;
 }
 
 .body1{
-  background-image: url('msg/bg.webp') ;
+  background-image: url('msg/b1.jpg') ;
   background-size: cover;      /* Scales image to cover entire area */
       background-repeat: no-repeat;/* Prevents tiling */
       background-position: center; /* Centers the image */
@@ -157,3 +167,6 @@
       margin: 0;
 }
 
+#message-box {
+  white-space: pre-line;
+}

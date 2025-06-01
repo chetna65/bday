@@ -18,10 +18,16 @@
 
 // Page 3 - Friend Messages
 const messages = [
-  '"You’re such a bright light in our lives!" – Neha',
-  '"Thank you for being the most supportive friend!" – Arjun',
-  '"May your year be filled with laughter and dreams!" – Priya'
+  `"You’re such a bright light in our lives!" – Neha`,
+  `Wishing you love, laughter, and everything that makes your heart smile today and always.\n
+   You deserve it all! You’ve been more than a friend — a true blessing.\n
+   Here’s to all the memories we’ve made and all the ones yet to come.\n
+   Once Again A Very happy Birthday dear Ananyaaaa 🎀\n
+   Thank you for being the most supportive friend! \n
+   – Bhumika`,
+  `"May your year be filled with laughter and dreams!" – Priya`
 ];
+
 
 function showMessage(index) {
   const box = document.getElementById('message-box');
