@@ -7,9 +7,9 @@
       margin: 0;
 }
 .bodyp{
-  background-image: url('bg2.jpg'); /* Replace with your image path */
+  background-image: url('bg3.jpg'); /* Replace with your image path */
   background-size: cover;      /* Scales image to cover entire area */
-  background-repeat: no-repeat;/* Prevents tiling */
+ background-repeat: repeat;/*Prevents tiling */
   background-position: center; /* Centers the image */
   height: 100vh;
   margin: 0;
@@ -87,7 +87,27 @@
   text-decoration: none;
   font-size: 1rem;
 } */
-
+.memories{
+  font-size: 80px;
+  margin: 10px;
+  text-align: center;
+}
+.btn2{
+   position: relative;
+  top: 20px;
+  left: 1400px;
+  height: 40px;
+  width: 120px;
+  padding: 20px;
+  font-size: 26px;
+  background-color: rgba(189, 230, 230, 0.844);
+  border-radius: 50px;
+  border: 2px solid black;
+  color: black;
+  font-style: bold;
+  text-decoration: none;
+  text-align: center;
+}
 .gallery {
   display: flex;
   flex-wrap: wrap;
