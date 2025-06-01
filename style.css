@@ -1,10 +1,18 @@
-.body {
+.bodyi {
       background-image: url('bg.jpg'); /* Replace with your image path */
       background-size: cover;      /* Scales image to cover entire area */
       background-repeat: no-repeat;/* Prevents tiling */
       background-position: center; /* Centers the image */
       height: 100vh;
       margin: 0;
+}
+.bodyp{
+  background-image: url('bg.jpg'); /* Replace with your image path */
+  background-size: cover;      /* Scales image to cover entire area */
+  background-repeat: no-repeat;/* Prevents tiling */
+  background-position: center; /* Centers the image */
+  height: 100vh;
+  margin: 0;
 }
 .front-page{
   position: absolute;
