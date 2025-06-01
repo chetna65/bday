@@ -1,4 +1,4 @@
-body {
+.body {
       background-image: url('bg.jpg'); /* Replace with your image path */
       background-size: cover;      /* Scales image to cover entire area */
       background-repeat: no-repeat;/* Prevents tiling */
@@ -100,12 +100,16 @@ body {
   gap: 1rem;
   justify-content: center;
   margin-top: 1rem;
+  
 }
 
 .envelope {
-  font-size: 2.5rem;
+  font-size: 4.5rem;
   cursor: pointer;
-  transition: transform 0.2s;
+  transition: transform 0.2s
+ 
+ 
+  
 }
 .envelope:hover {
   transform: scale(1.2);
@@ -136,3 +140,20 @@ body {
   position: absolute;
   z-index: 0;
 }
+
+
+.title{
+  padding-top: 200px;
+  text-align: center;
+  color: rgba(13, 146, 139, 0.844)
+}
+
+.body1{
+  background-image: url('msg/bg.webp') ;
+  background-size: cover;      /* Scales image to cover entire area */
+      background-repeat: no-repeat;/* Prevents tiling */
+      background-position: center; /* Centers the image */
+      height: 100vh;
+      margin: 0;
+}
+
