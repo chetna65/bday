@@ -38,9 +38,11 @@ Once again, Happyyyyyy Birthday." – Madhura`
   `"Many many happy returns of the day Ananya.
 Keep that lovely smile always on. Wishing you the best in everything you do. 
 Happy Birthday to the best Dancer ! ❤" – Mansi Jain`
-  `"May your year be filled with laughter and dreams!" – Chetna`
+  `"Meri pyaari Ananya🪄
+It's just great to have a friend like you.💕 Tune tb mujhe smjha jb koi nhi smjh skta tha. Tune mujhe apna frustration ko express krne ke liye space diya.
+Thank you so much for understanding me and being there for me.💝 Happy Birthday to you once again.🥳 May you have a wonderful life ahead.✨ May god bless you with lots of opportunities and success.📈" – Chetna`
   `"Happy birthday ananya😌✨may is b'day ke sath👀 tu aur pyaree dancerr bne🙂‍↔vesee to tuu already hai 👀ke humare to apse akhe he Nhii htte✨.😌aur esaa he apna bhn vala rishta bna rhe (diduuuu😌)." – Shraddha`
-  `"May your year be filled with laughter and dreams!" – Divya`
+  `"Helloooo sweetpie, Have a wonderful wonderful year ahead! Keep smiling always and never let anyone defame your shine! ☀" – Divya`
 ];
 
 
