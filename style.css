@@ -198,3 +198,19 @@
 #message-box {
   white-space: pre-line;
 }
+.btn3{
+  position: absolute;
+  top: 600px;
+  left: 700px;
+  height: 40px;
+  width: 120px;
+  padding: 20px;
+  font-size: 26px;
+  background-color: rgba(189, 230, 230, 0.844);
+  border-radius: 50px;
+  border: 2px solid black;
+  color: black;
+  font-style: bold;
+  text-decoration: none;
+  text-align: center;
+}
