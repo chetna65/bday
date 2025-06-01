@@ -1,0 +1,138 @@
+body {
+      background-image: url('bg.jpg'); /* Replace with your image path */
+      background-size: cover;      /* Scales image to cover entire area */
+      background-repeat: no-repeat;/* Prevents tiling */
+      background-position: center; /* Centers the image */
+      height: 100vh;
+      margin: 0;
+}
+.front-page{
+  position: absolute;
+  top: 70px;
+  left: 20px;
+  height: 700px;
+  width: 1000px;
+  background-color: rgba(255, 255, 255, 0);
+  align-items: center;
+
+
+}
+.hbday{
+  font-size: 120px;
+  font-style: bold;
+ text-align: center;
+  margin: 10px;
+}
+.name{
+  font-size: 70px;
+  margin: 15px;
+  text-align: center;
+}
+.txt{
+  font-size: 30px;
+  text-align: center;
+}
+.btn{
+  position: absolute;
+  top: 600px;
+  left: 400px;
+  height: 40px;
+  width: 120px;
+  padding: 20px;
+  font-size: 26px;
+  background-color: rgba(189, 230, 230, 0.844);
+  border-radius: 50px;
+  border: 2px solid black;
+  color: black;
+  font-style: bold;
+  text-decoration: none;
+  text-align: center;
+  
+}
+/* .center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  min-height: 700px;
+  width: 800px;
+  text-align: center;
+}
+
+.card {
+  background: white;
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  width: 90%;
+  margin: auto;
+} */
+
+/* .btn {
+  margin-top: 1.5rem;
+  padding: 0.7rem 1.2rem;
+  background: #ff6f61;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 1rem;
+} */
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.gallery img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.envelopes {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.envelope {
+  font-size: 2.5rem;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+.envelope:hover {
+  transform: scale(1.2);
+}
+
+.message-box {
+  margin-top: 1.5rem;
+  padding: 1rem;
+  background: #fff3cd;
+  border: 2px dashed #ffa502;
+  border-radius: 10px;
+  font-style: italic;
+  display: none;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(100vh);
+    opacity: 0.7;
+  }
+  100% {
+    transform: translateY(-120vh);
+    opacity: 1;
+  }
+}
+
+.balloon {
+  position: absolute;
+  z-index: 0;
+}
